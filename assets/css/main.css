@@ -2,8 +2,13 @@ h2 {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
+h3 {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+}
 
 
+/*  home  */
 .section01_inner {
 
 }
@@ -27,11 +32,66 @@ h2 {
     text-transform: uppercase;
 }
 
-
 .section01_inner {
     height: 100%;
 }
+
+/*  about me  */
 .section02_inner .profile_img {
     width: 36rem;
     height: 48rem;
+}
+
+/*  skill  */
+.section03 .skill_img_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.break {
+    flex-basis: 100%; /* 줄바꿈 역할 */
+    height: 0; /* 불필요한 높이를 제거 */
+}
+.section03 .tool_img {
+    width: 8.5rem;
+}
+
+/*  portfolio  */
+.tab_btn {
+    position: relative;
+    width: 65vw;
+}
+
+.tab_btn a.more {
+    position: absolute;
+    right: 0;
+    top: 1.3rem;
+    font-size: 1.6rem;
+}
+.tab_btn a {
+    color: var(--grayscale-400);
+    padding: 1.2rem;
+}
+.tab_btn ul {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    gap: 3.2rem;
+}
+
+.tab_btn ul li {
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -1px;
+    transition: all 0.5s;
+    font-size: 2.4rem;
+}
+
+.tab_cont {
+    margin-top: 3rem;
+}
+
+
+.tab_btn ul li:hover {
+    background-color: aquamarine;
 }
