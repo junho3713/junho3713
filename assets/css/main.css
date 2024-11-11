@@ -76,7 +76,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 1.3rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .tab_btn a {
     display: block;
@@ -88,7 +88,7 @@ h3 {
     display: flex;
     padding-left: 0;
     margin: 0;
-    gap: 3.2rem;
+    gap: 2rem;
 }
 
 .tab_btn ul li {
@@ -105,7 +105,7 @@ h3 {
 
 
 .tab_btn ul li.active {
-    background-color: aquamarine;
+    background-color: #6BD4FF;
     border-radius: 0.8rem;
 }
 
@@ -170,4 +170,16 @@ h3 {
 .design_box_img {
     border: 1px solid #ccc;
 }
+.img04 {
+    height: 92rem;
+    overflow: hidden;
+}
 
+/* 섹션06 contact */
+.section06 .text_area {
+    margin-top: 4rem;
+}
+.section06 .text_area p{
+    font-size: 2.4rem;
+    text-align: center;
+}
