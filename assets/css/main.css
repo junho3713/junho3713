@@ -155,6 +155,7 @@ h3 {
 .design_box_wrap {
     display: flex;
     gap: 1%;
+    flex-wrap: wrap;
 }
 .design_box {
     width: 32%;
@@ -172,6 +173,10 @@ h3 {
 }
 .img04 {
     height: 92rem;
+    overflow: hidden;
+}
+.img05 {
+    height: 80rem;
     overflow: hidden;
 }
 

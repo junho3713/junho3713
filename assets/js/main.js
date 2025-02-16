@@ -107,3 +107,26 @@ $(document).ready(function() {
         mySwiper.slidePrev(); // 이전 슬라이드로 이동
     });
 });
+
+$(document).ready(function() {
+    $(".thumbnail1").click(function() {
+        let imgSrc = "./assets/img/design1.jpg";
+        window.open(imgSrc, "_blank", "width=1600,height=1000,resizable=yes");
+    });
+    $(".thumbnail2").click(function() {
+        let imgSrc = "./assets/img/design2.jpg";
+        window.open(imgSrc, "_blank", "width=1600,height=1000,resizable=yes");
+    });
+    $(".thumbnail3").click(function() {
+        let imgSrc = "./assets/img/design3.jpg";
+        window.open(imgSrc, "_blank", "width=1600,height=1000,resizable=yes");
+    });
+    $(".thumbnail4").click(function() {
+        let imgSrc = "./assets/img/design4.jpg";
+        window.open(imgSrc, "_blank", "width=1600,height=1000,resizable=yes");
+    });
+    $(".thumbnail5").click(function() {
+        let imgSrc = "./assets/img/design5.jpg";
+        window.open(imgSrc, "_blank", "width=1600,height=1000,resizable=yes");
+    });
+});
